@@ -1,0 +1,20 @@
+.Collapse {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.collapse-panel {
+  padding: 6px;
+  border-radius: 4px;
+  background: snow;
+  text-align: center;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+.collapse-panel:hover, .collapse-panel.active {
+  color: white;
+  background: grey;
+}
